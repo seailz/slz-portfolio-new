@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+ body, html {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    --color-bg: #2e2e2e;
+    --color-bg-semi-light: #353535;
+    --color-bg-light: #7d7d7d;
+    --color-text: #fff;
+     --color-text-variant: #aeaeae;
+    --font-primary: 'Gabarito', 'Poppins', 'Roboto', Inter, sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.text, .header-large-text, .header-text, .body-text {
+    font-family: var(--font-primary);
+    color: var(--color-text);
+}
+
+.header-large-text {
+    font-size: 3rem;
+}
+
+.header-text {
+    font-size: 2rem;
+}
+
+.body-text {
+    font-size: 1.2rem;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-bg);
+}
